@@ -1,6 +1,6 @@
 # Shop Score Page
 
-This [site](https://shop-score-2017.herokuapp.com/) displays information about orders in online store. It refreshes every 10 seconds and change color of score according to waiting time.
+This [site](https://shop-score-2017.herokuapp.com/) displays information about orders in online store. It refreshes every 10 seconds and change color of score according to waiting time. This site displays correctly not only on standard types of devices (laptops, smartphones and tablets), but also on large wall-mounted screens.
 
 # Deploy on localhost
 
