@@ -19,7 +19,7 @@
 
   <body>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
           <div class="col-xs-0 col-lg-2"></div>
           <div class="col-xs-12 col-lg-8">
@@ -31,17 +31,17 @@
                           </h4>
                       </div>
                       <div class="col-xs-12 text-center">
-                          <h2 style="color:{{ color }}">
+                          <h2 style="color:{{ color }}" class="maxtime">
                               {{ maxtime }}
                           </h2>
                       </div>
                       <div class="col-xs-12 text-center">
-                          <h5>
+                          <h5 class="orders">
                               Количество необработанных заказов: {{ unprocessed_orders_count }}
                           </h5>
                       </div>
                       <div class="col-xs-12 text-center">
-                          <h5>
+                          <h5 class="orders">
                               Количество заказов, обработанных за день: {{ processed_orders_count }}
                           </h5>
                       </div>
